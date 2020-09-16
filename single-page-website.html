@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Lil Peep</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: impact;
+            background-color: black;
+            line-height: 1.5;
+        }
+        
+        nav,
+        main>section {
+            overflow: auto;
+        }
+        
+        main>section {
+            min-height: 100vh;
+        }
+        /* Style the nav bar */
+        
+        #nav {
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 1em;
+            background-color: Black;
+            color: rgb(226, 85, 226);
+            display: flex;
+        }
+        
+        nav h1,
+        ul {
+            margin: 0
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: rgb(226, 85, 226);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul a {
+            padding: 1em;
+            color: rgb(226, 85, 226);
+        }
+        
+        nav ul a:hover {
+            color: White;
+        }
+        
+        #Peep {
+            background-color: black;
+            background-image: url(099200-R1-11.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4em;
+            color: rgb(226, 85, 226);
+        }
+        
+        #Peep>div {
+            position: relative;
+            left: -120px;
+            top: 120px;
+        }
+        
+        #Peep h2,
+        #Peep p {
+            margin: 0;
+            text-shadow: 0 0 20px #000000;
+        }
+        
+        #Music {
+            background-color: black;
+        }
+        
+        #Music ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        #Music>h2 {
+            margin: 1em;
+            font-size: 3em;
+            text-align: center;
+            color: rgb(226, 85, 226);
+        }
+        
+        .card {
+            width: 400px;
+            margin: 1em;
+            background-color: rgb(226, 85, 226);
+            box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+        }
+        
+        .card img {
+            width: 100%;
+        }
+        
+        .card h3 {
+            font-size: 2em;
+        }
+        
+        .card h3,
+        .card p {
+            margin: 1rem;
+        }
+        
+        ul {
+            display: flex;
+        }
+        
+        #Fame {
+            background-color: rgb(226, 85, 226);
+            background-image: url(peepp.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(226, 85, 226);
+        }
+        
+        #Fame>div {
+            background-color: black;
+            padding: 2em;
+            width: 75%;
+            max-width: 700px;
+            opacity: 75%;
+        }
+        
+        #Fame h2 {
+            font-size: 4em;
+            margin: 0 0 1rem 0;
+            text-align: center;
+        }
+        
+        #Death {
+            background-color: black;
+            display: flex;
+            color: rgb(226, 85, 226);
+            background-image: url();
+            background-size: cover;
+        }
+        
+        #Death>div {
+            display: flex;
+            justify-content: center;
+            width: 75%;
+            margin: auto;
+        }
+        
+        #Death h2,
+        #Death p {
+            margin: 0 0 1rem 0;
+        }
+        
+        #Death h2 {
+            font-size: 2em;
+        }
+        
+        #Death>div>div:nth-child(1) {
+            flex: 3;
+            margin: 0 2em 0 0;
+        }
+        
+        #Death>div>div:nth-child(2) {
+            flex: 2;
+        }
+        
+        #Death>div img {
+            width: 100%;
+            box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+        }
+        
+        #contact {
+            background-color: rgb(226, 85, 226);
+        }
+        
+        .a {
+            color: rgb(226, 85, 226);
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <nav id="nav">
+            <h1 id="top"><a href="#">Lil Peep</a></h1>
+            <ul>
+                <li><a href="#Peep">Who's Peep</a></li>
+                <li><a href="#Music">Music</a></li>
+                <li><a href="#Fame">Fame</a></li>
+                <li><a href="#Death">Death</a></li>
+            </ul>
+
+        </nav>
+
+        <section id="Peep">
+            <div data-aos="fade-right">
+                <h2>Who's Lil Peep?</h2>
+                <p></p>
+            </div>
+
+        </section>
+
+        <section id="Music">
+            <h2>Lil Peep's Music</h2>
+            <ul data-aos="fade-right">
+                <li class="card">
+                    <img src="peep peep .jpg">
+                    <h3>SoundCloud</h3>
+                    <p>Born in Allentown, Pennsylvania, and raised on Long Island, New York, Lil Peep started releasing music on SoundCloud in 2014,[4] using the pseudonym Lil Peep because his mother had called him "Peep" since he was a child.[5] He soon
+                        became popular on the platform for his collaborations with Lil Tracy and several mixtapes: Lil Peep; Part One (2015), Live Forever (2015), Crybaby (2016) and Hellboy (2016); the latter's success led him to his first solo tour across
+                        the United States.[6]</p>
+                </li>
+                <li class="card">
+                    <img src="peep peep peep peep.jpg">
+                    <h3>Friends</h3>
+                    <p>Soon after the tour, Lil Peep emigrated to London, England, where he recorded his debut studio album.[7] While his mixtapes explored emo, trap, lo-fi and alternative rock, his debut album Come Over When You're Sober, Pt. 1 (2017) was
+                        a transition into pop punk and rap rock.[8] His second album Come Over When You're Sober, Pt. 2 (2018) was a commercial and critical success, debuting at number four on the Billboard 200.[9] The documentary film about him, Everybody's
+                        Everything, was released in 2019.</p>
+                </li>
+                <li class="card">
+                    <img src="peep peep peep.jpg">
+                    <h3>GothBoiClique</h3>
+                    <p>Lil Peep left high school early to move to Los Angeles and meet up with online friends. He initially lived in Skid Row, Los Angeles, and dipped in and out of homelessness,[20] staying at Savage's apartment while Savage pursued a degree.
+                        The two eventually went separate ways[27] and Peep met Atlanta rapper and producer JGRXXN and Florida rappers Ghostemane and Craig Xen, living with them while forming the collective Schemaposse.[28] He originally met Craig Xen
+                        online and was introduced to JGRXXN who needed a singer.[29] Lil Peep also attempted to attend Glendale Community College during his first year living in Los Angeles.[12] In 2015, Lil Peep released his first mixtape, Lil Peep;
+                        Part One, which generated 4,000 plays in its first week. Shortly thereafter, he released his first extended play, Feelz, and another mixtape, Live Forever.[30][31]</p>
+                </li>
+            </ul>
+            <a href="#top">top</a>
+        </section>
+
+        <section id="Fame">
+            <div>
+                <h2>Lil Peep's Fame</h2>
+                <p>Gustav Elijah Åhr (November 1, 1996 – November 15, 2017), known professionally as Lil Peep (often stylized as LiL PEEP),[2] was an American rapper, singer, songwriter and model.[3] He was a member of the emo rap collective GothBoiClique.
+                    Helping pioneer an emo revival style of rap and rock music, Lil Peep has been credited as the leading figure of the mid–late 2010s emo music scene and came to be an inspiration to outcasts and youth subcultures.
+
+                </p>
+            </div>
+            <a href="#top">top</a>
+        </section>
+
+        <section id="Death">
+            <div>
+                <div>
+                    <h2>Lil Peep's Death</h2>
+                    <p>Lil Peep had substance abuse issues due to his mental health conditions, including depression and bipolar disorder, which often influenced the thematic content of his music.[10] He died in Tucson, Arizona, on November 15, 2017, two
+                        weeks after his 21st birthday. The Pima County Office of the Medical Examiner certified the cause of death as an accidental overdose of fentanyl and Xanax.[11].</p>
+                </div>
+                <div>
+                    <img src="peeep.jpg">
+                    <a href="#top">top</a>
+                </div>
+
+            </div>
+            <figure>
+                <img>
+            </figure>
+        </section>
+
+        <footer id="contact">
+            <form>
+                <label>
+						Name
+						<input type="text">
+					</label>
+
+                <label>
+						Email
+						<input type="email">
+					</label>
+
+                <label>
+						Message
+						<textarea></textarea>
+					</label>
+
+                <button type="submit">Send</button>
+                <a href="#top">top</a>
+            </form>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
